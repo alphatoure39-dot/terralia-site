@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terralia — Gestion complète de ferme</title>
+  <meta name="description" content="Terralia aide les exploitants agricoles à gérer cultures, élevage, stocks et ventes depuis une seule application.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════ HEADER ════════════════════════════════ -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <line x1="12" y1="21" x2="12" y2="11" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="7.4" cy="9.4" r="3.3" fill="#bfe3cb"/>
+            <circle cx="16"  cy="6.6" r="3.3" fill="#fff"/>
+          </svg>
+        </span>
+        <span class="logo-name" data-brand>Terralia</span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="btn-primary" data-app-url>Essayer gratuitement</a>
+        <button class="btn-burger" aria-label="Menu">≡</button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-mobile">
+    <a href="#fonctionnalites">Fonctionnalités</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════════ HERO ══════════════════════════════════ -->
+<section id="top" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-grid">
+
+      <!-- Texte -->
+      <div data-reveal>
+        <span class="badge-pill">
+          <span class="badge-dot"></span>Gestion d'exploitation tout-en-un
+        </span>
+        <h1 class="hero-title" data-hero-title>Gérez toute votre ferme depuis un seul endroit</h1>
+        <p class="hero-sub">
+          Cultures, élevage, stocks et ventes : <span data-brand>Terralia</span> réunit toute la gestion
+          de votre exploitation dans une application simple, fiable et pensée pour le terrain.
+        </p>
+        <div class="cta-row">
+          <a href="#" class="btn-cta-hero" data-app-url>Accéder à l'application →</a>
+          <button class="btn-ghost" data-open-demo>▷&nbsp; Voir une démo</button>
+        </div>
+        <div class="hero-reassurance">
+          <span><span class="check">✓</span>Sans carte bancaire</span>
+          <span><span class="check">✓</span>Fonctionne hors ligne</span>
+          <span><span class="check">✓</span>Assistance en français</span>
+        </div>
+      </div>
+
+      <!-- Visuel -->
+      <div class="hero-visual" data-reveal>
+        <!-- App Mockup -->
+        <div class="mockup-wrap">
+          <div class="mockup-frame">
+            <div class="mockup-bar">
+              <span class="mock-dot mock-dot--red"></span>
+              <span class="mock-dot mock-dot--yellow"></span>
+              <span class="mock-dot mock-dot--green"></span>
+              <div class="mockup-url-bar">
+                <div class="mockup-url">app.terralia.com/tableau-de-bord</div>
+              </div>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="sidebar-logo">
+                  <span class="sidebar-logo-icon">
+                    <span style="width:8px;height:8px;border-radius:2px;background:#bfe3cb;display:inline-block;"></span>
+                  </span>
+                  <span class="sidebar-logo-name">Terralia</span>
+                </div>
+                <div class="sidebar-item sidebar-item--active"><span class="sidebar-bullet sidebar-bullet--active"></span>Tableau de bord</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Cultures</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Bétail</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Stocks</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Ventes</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Rapports</div>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-greeting">Bonjour, Awa</div>
+                <div class="mockup-date">Voici votre exploitation aujourd'hui · 14 juin</div>
+                <div class="mockup-stats">
+                  <div class="mockup-stat">
+                    <div class="mockup-stat-label">Parcelles</div>
+                    <div class="mockup-stat-val">12</div>
+                    <div class="mockup-stat-sub mockup-stat-sub--green">+2 ce mois</div>
+                  </div>
+                  <div class="mockup-stat">
+                    <div class="mockup-stat-label">Bétail</div>
+                    <div class="mockup-stat-val">86</div>
+                    <div class="mockup-stat-sub mockup-stat-sub--gray">têtes suivies</div>
+                  </div>
+                  <div class="mockup-stat">
+                    <div class="mockup-stat-label">Revenus</div>
+                    <div class="mockup-stat-val">412 K&nbsp;F</div>
+                    <div class="mockup-stat-sub mockup-stat-sub--green">+18%</div>
+                  </div>
+                </div>
+                <div class="mockup-chart">
+                  <div class="mockup-chart-header">
+                    <span class="mockup-chart-title">Rendement par parcelle</span>
+                    <span class="mockup-chart-badge">+18% vs. mois dernier</span>
+                  </div>
+                  <div class="chart-bars">
+                    <div class="chart-bar" style="height:44%;background:#cfe5d6;"></div>
+                    <div class="chart-bar" style="height:60%;background:#a9d3b9;"></div>
+                    <div class="chart-bar" style="height:52%;background:#cfe5d6;"></div>
+                    <div class="chart-bar" style="height:74%;background:#69a982;"></div>
+                    <div class="chart-bar" style="height:66%;background:#a9d3b9;"></div>
+                    <div class="chart-bar" style="height:92%;background:#2e7d4f;"></div>
+                    <div class="chart-bar" style="height:78%;background:#c1654a;"></div>
+                  </div>
+                  <div class="chart-labels">
+                    <span class="chart-label">P1</span><span class="chart-label">P2</span>
+                    <span class="chart-label">P3</span><span class="chart-label">P4</span>
+                    <span class="chart-label">P5</span><span class="chart-label">P6</span>
+                    <span class="chart-label">P7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Float card -->
+        <div class="float-card">
+          <span class="float-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <rect x="4"    y="13" width="3.4" height="7"  rx="1" fill="#69a982"/>
+              <rect x="10.3" y="9"  width="3.4" height="11" rx="1" fill="#2e7d4f"/>
+              <rect x="16.6" y="5"  width="3.4" height="15" rx="1" fill="#c1654a"/>
+            </svg>
+          </span>
+          <div>
+            <div class="float-card-label">Rentabilité ce mois</div>
+            <div class="float-card-value">+18%&nbsp;<em>↑</em></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ SOCIAL PROOF ═════════════════════════════ -->
+<section style="padding: 34px 0 8px;">
+  <div class="container">
+    <div class="social-proof" data-reveal>
+      <span>Déjà adopté sur le terrain par</span>
+      <span class="social-proof-name">Coopérative du Fleuve</span>
+      <span class="social-proof-name">Ferme Sahel Vert</span>
+      <span class="social-proof-name">GIE Niayes</span>
+      <span class="social-proof-name">Domaine des Collines</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PROBLÈME / SOLUTION ════════════════════════ -->
+<section style="padding: 72px 0;">
+  <div class="container">
+    <div data-reveal style="max-width:680px;margin:0 auto;text-align:center;">
+      <span class="section-label section-label--terra">Pourquoi <span data-brand>Terralia</span></span>
+      <h2 class="section-title">Moins de paperasse, plus de visibilité</h2>
+      <p class="section-sub">
+        Gérer une exploitation, c'est jongler avec mille détails. <span data-brand>Terralia</span> remplace
+        les carnets éparpillés par une vue claire et toujours à jour.
+      </p>
+    </div>
+    <div class="cards-grid-3">
+      <!-- Carte 1 -->
+      <div class="problem-card" data-reveal>
+        <span class="card-icon card-icon--terra">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <rect x="5" y="3.5" width="14" height="17" rx="2" stroke="#c1654a" stroke-width="1.7"/>
+            <line x1="8.5" y1="8"  x2="15.5" y2="8"  stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+            <line x1="8.5" y1="12" x2="15.5" y2="12" stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+            <line x1="8.5" y1="16" x2="12.5" y2="16" stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="card-sublabel card-sublabel--terra">Le problème</div>
+        <p class="card-text card-text--muted">Des relevés sur papier ou dans des carnets, vite perdus, illisibles ou oubliés.</p>
+        <div class="card-divider"></div>
+        <div class="card-sublabel card-sublabel--green">Avec <span data-brand>Terralia</span></div>
+        <p class="card-text card-text--dark">Tout est centralisé dans une seule application, accessible à tout moment, sur tous vos appareils.</p>
+      </div>
+      <!-- Carte 2 -->
+      <div class="problem-card" data-reveal>
+        <span class="card-icon card-icon--terra">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="8.2" stroke="#c1654a" stroke-width="1.7"/>
+            <line x1="12" y1="12" x2="12" y2="6.5" stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+            <line x1="12" y1="12" x2="16" y2="14" stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="card-sublabel card-sublabel--terra">Le problème</div>
+        <p class="card-text card-text--muted">Aucune vue d'ensemble sur ce qui est réellement rentable d'une saison à l'autre.</p>
+        <div class="card-divider"></div>
+        <div class="card-sublabel card-sublabel--green">Avec <span data-brand>Terralia</span></div>
+        <p class="card-text card-text--dark">Des tableaux de bord clairs sur vos revenus, vos coûts et vos marges, en temps réel.</p>
+      </div>
+      <!-- Carte 3 -->
+      <div class="problem-card" data-reveal>
+        <span class="card-icon card-icon--terra">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 4.5c-3 0-5 2-5 5.2 0 3.8-1.4 5.1-2 5.8h14c-.6-.7-2-2-2-5.8 0-3.2-2-5.2-5-5.2Z" stroke="#c1654a" stroke-width="1.7" stroke-linejoin="round"/>
+            <path d="M10.4 18.2a1.8 1.8 0 0 0 3.2 0" stroke="#c1654a" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="card-sublabel card-sublabel--terra">Le problème</div>
+        <p class="card-text card-text--muted">Des échéances qui passent à la trappe : vaccins, traitements, paiements.</p>
+        <div class="card-divider"></div>
+        <div class="card-sublabel card-sublabel--green">Avec <span data-brand>Terralia</span></div>
+        <p class="card-text card-text--dark">Des alertes et rappels automatiques pour ne plus jamais rien laisser passer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FONCTIONNALITÉS ════════════════════════════ -->
+<section id="fonctionnalites" class="section-features">
+  <div class="container" style="padding-top:74px;padding-bottom:74px;">
+    <div data-reveal style="max-width:680px;">
+      <span class="section-label section-label--green">Fonctionnalités</span>
+      <h2 class="section-title">Tout votre métier, dans une seule application</h2>
+      <p class="section-sub">De la parcelle au troupeau, du stock à la vente : suivez chaque aspect de votre exploitation sans changer d'outil.</p>
+    </div>
+    <div class="cards-grid-feat">
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <line x1="12" y1="21" x2="12" y2="10" stroke="#2e7d4f" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M12 13c-3.6 0-5.5-2-5.5-5.5C10 7.5 12 9.4 12 13Z" fill="#bfe0cb"/>
+            <path d="M12 11c0-3 1.8-5 5-5 0 3.2-1.8 5-5 5Z" fill="#2e7d4f"/>
+          </svg>
+        </span>
+        <h3>Suivi des cultures</h3>
+        <p>Planifiez semis, traitements et récoltes parcelle par parcelle.</p>
+      </div>
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="13" r="6.2" stroke="#2e7d4f" stroke-width="1.8"/>
+            <circle cx="9.6"  cy="12" r="1" fill="#2e7d4f"/>
+            <circle cx="14.4" cy="12" r="1" fill="#2e7d4f"/>
+            <path d="M7 8.5 5.5 5.5M17 8.5 18.5 5.5" stroke="#2e7d4f" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h3>Suivi du bétail</h3>
+        <p>Santé, reproduction et alimentation, animal par animal.</p>
+      </div>
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <rect x="4.5" y="13" width="15"  height="6.5" rx="1.4" stroke="#2e7d4f" stroke-width="1.8"/>
+            <rect x="6.5" y="7"  width="11"  height="6"   rx="1.4" stroke="#2e7d4f" stroke-width="1.8"/>
+            <rect x="9"   y="13" width="6"   height="2.2" fill="#bfe0cb"/>
+          </svg>
+        </span>
+        <h3>Gestion des stocks</h3>
+        <p>Intrants, semences et récoltes toujours à jour, sans surprise.</p>
+      </div>
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <rect x="5"    y="14" width="3.4" height="5.5"  rx="1" fill="#bfe0cb"/>
+            <rect x="10.3" y="10" width="3.4" height="9.5"  rx="1" fill="#69a982"/>
+            <rect x="15.6" y="6"  width="3.4" height="13.5" rx="1" fill="#2e7d4f"/>
+          </svg>
+        </span>
+        <h3>Ventes &amp; rentabilité</h3>
+        <p>Suivez revenus, coûts et marges, en temps réel.</p>
+      </div>
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <path d="M12 4.5c-3 0-5 2-5 5.2 0 3.8-1.4 5.1-2 5.8h14c-.6-.7-2-2-2-5.8 0-3.2-2-5.2-5-5.2Z" stroke="#2e7d4f" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M10.4 18.2a1.8 1.8 0 0 0 3.2 0" stroke="#2e7d4f" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h3>Alertes &amp; rappels</h3>
+        <p>Vaccins, traitements, échéances : tout arrive au bon moment.</p>
+      </div>
+      <div class="feat-card" data-reveal>
+        <span class="feat-card-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="8" stroke="#2e7d4f" stroke-width="1.8"/>
+            <path d="M12 12V4.2A7.8 7.8 0 0 1 18.5 8.2L12 12Z" fill="#bfe0cb"/>
+            <line x1="12" y1="12" x2="12" y2="4.2" stroke="#2e7d4f" stroke-width="1.5"/>
+          </svg>
+        </span>
+        <h3>Rapports &amp; statistiques</h3>
+        <p>Des tableaux de bord clairs pour décider vite et bien.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════ APERÇU ════════════════════════════════ -->
+<section id="apercu" style="padding: 78px 0;">
+  <div class="container">
+    <div class="apercu-grid">
+      <div data-reveal>
+        <!-- App Mockup (identique) -->
+        <div class="mockup-wrap">
+          <div class="mockup-frame">
+            <div class="mockup-bar">
+              <span class="mock-dot mock-dot--red"></span>
+              <span class="mock-dot mock-dot--yellow"></span>
+              <span class="mock-dot mock-dot--green"></span>
+              <div class="mockup-url-bar"><div class="mockup-url">app.terralia.com/tableau-de-bord</div></div>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="sidebar-logo">
+                  <span class="sidebar-logo-icon"><span style="width:8px;height:8px;border-radius:2px;background:#bfe3cb;display:inline-block;"></span></span>
+                  <span class="sidebar-logo-name">Terralia</span>
+                </div>
+                <div class="sidebar-item sidebar-item--active"><span class="sidebar-bullet sidebar-bullet--active"></span>Tableau de bord</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Cultures</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Bétail</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Stocks</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Ventes</div>
+                <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Rapports</div>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-greeting">Bonjour, Awa</div>
+                <div class="mockup-date">Voici votre exploitation aujourd'hui · 14 juin</div>
+                <div class="mockup-stats">
+                  <div class="mockup-stat"><div class="mockup-stat-label">Parcelles</div><div class="mockup-stat-val">12</div><div class="mockup-stat-sub mockup-stat-sub--green">+2 ce mois</div></div>
+                  <div class="mockup-stat"><div class="mockup-stat-label">Bétail</div><div class="mockup-stat-val">86</div><div class="mockup-stat-sub mockup-stat-sub--gray">têtes suivies</div></div>
+                  <div class="mockup-stat"><div class="mockup-stat-label">Revenus</div><div class="mockup-stat-val">412 K&nbsp;F</div><div class="mockup-stat-sub mockup-stat-sub--green">+18%</div></div>
+                </div>
+                <div class="mockup-chart">
+                  <div class="mockup-chart-header">
+                    <span class="mockup-chart-title">Rendement par parcelle</span>
+                    <span class="mockup-chart-badge">+18% vs. mois dernier</span>
+                  </div>
+                  <div class="chart-bars">
+                    <div class="chart-bar" style="height:44%;background:#cfe5d6;"></div>
+                    <div class="chart-bar" style="height:60%;background:#a9d3b9;"></div>
+                    <div class="chart-bar" style="height:52%;background:#cfe5d6;"></div>
+                    <div class="chart-bar" style="height:74%;background:#69a982;"></div>
+                    <div class="chart-bar" style="height:66%;background:#a9d3b9;"></div>
+                    <div class="chart-bar" style="height:92%;background:#2e7d4f;"></div>
+                    <div class="chart-bar" style="height:78%;background:#c1654a;"></div>
+                  </div>
+                  <div class="chart-labels">
+                    <span class="chart-label">P1</span><span class="chart-label">P2</span>
+                    <span class="chart-label">P3</span><span class="chart-label">P4</span>
+                    <span class="chart-label">P5</span><span class="chart-label">P6</span>
+                    <span class="chart-label">P7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-reveal>
+        <span class="section-label section-label--terra">Aperçu produit</span>
+        <h2 class="section-title" style="font-size:clamp(28px,3.4vw,38px);">Une interface pensée pour le terrain</h2>
+        <div class="apercu-steps">
+          <div class="apercu-step">
+            <span class="step-num">1</span>
+            <div>
+              <div class="step-title">Un tableau de bord d'un coup d'œil</div>
+              <p class="step-desc">Parcelles, bétail et revenus du mois réunis sur un seul écran.</p>
+            </div>
+          </div>
+          <div class="apercu-step">
+            <span class="step-num">2</span>
+            <div>
+              <div class="step-title">Des graphiques qui parlent</div>
+              <p class="step-desc">Le rendement par parcelle, comparé d'un mois sur l'autre.</p>
+            </div>
+          </div>
+          <div class="apercu-step">
+            <span class="step-num">3</span>
+            <div>
+              <div class="step-title">Lisible, même hors connexion</div>
+              <p class="step-desc">Vos données restent accessibles au champ, puis se synchronisent.</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn-ghost" style="margin-top:28px;" data-open-demo>▷&nbsp; Voir la démo en grand</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════ TARIFS ════════════════════════════════ -->
+<section id="tarifs" class="section-tarifs">
+  <div class="container" style="padding-top:74px;padding-bottom:74px;">
+    <div data-reveal style="text-align:center;max-width:640px;margin:0 auto;">
+      <span class="section-label section-label--green">Tarifs</span>
+      <h2 class="section-title">Un tarif simple, tout compris</h2>
+      <p class="section-sub">Le premier mois est offert. Ensuite, 5 000 FCFA par mois — toutes les fonctionnalités, sans engagement.</p>
+    </div>
+    <div class="pricing-card" data-reveal>
+      <span class="pricing-badge"><span class="badge-dot"></span>1er mois offert</span>
+      <div class="pricing-amount">
+        <span class="pricing-number">5 000</span>
+        <span class="pricing-currency">FCFA</span>
+      </div>
+      <div class="pricing-note">par mois, après le mois gratuit · sans engagement</div>
+      <a href="#" class="pricing-cta" data-app-url>Commencer le mois gratuit →</a>
+      <div class="pricing-nocb">Sans carte bancaire</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feat"><span class="check">✓</span>Parcelles illimitées</div>
+        <div class="pricing-feat"><span class="check">✓</span>Bétail illimité</div>
+        <div class="pricing-feat"><span class="check">✓</span>Gestion des stocks</div>
+        <div class="pricing-feat"><span class="check">✓</span>Ventes &amp; marges</div>
+        <div class="pricing-feat"><span class="check">✓</span>Alertes &amp; rappels</div>
+        <div class="pricing-feat"><span class="check">✓</span>Rapports &amp; stats</div>
+        <div class="pricing-feat"><span class="check">✓</span>Sauvegarde sécurisée</div>
+        <div class="pricing-feat"><span class="check">✓</span>Assistance en français</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════ FAQ ══════════════════════════════════ -->
+<section id="faq" style="padding: 78px 0;">
+  <div class="container" style="max-width:820px;">
+    <div data-reveal style="text-align:center;">
+      <span class="section-label section-label--terra">FAQ</span>
+      <h2 class="section-title">Questions fréquentes</h2>
+    </div>
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Est-ce que mes données sont sécurisées ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Oui. Vos données sont chiffrées et sauvegardées automatiquement sur des serveurs sécurisés. Vous restez seul propriétaire de vos informations et pouvez les exporter à tout moment.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Puis-je utiliser l'application sans connexion internet ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Terralia fonctionne hors ligne sur le terrain : vos saisies sont enregistrées sur votre appareil, puis synchronisées dès que la connexion revient.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Comment se passe l'essai gratuit ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Vous créez un compte en quelques minutes, sans carte bancaire. Vous profitez de toutes les fonctionnalités le premier mois, et vous passez à la formule payante seulement si vous le souhaitez.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Sur quels appareils fonctionne Terralia ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Sur téléphone, tablette et ordinateur. L'application web s'adapte à chaque écran et vous retrouvez vos données partout, en temps réel.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Puis-je gérer plusieurs exploitations ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Oui. Vous pouvez suivre plusieurs exploitations ou parcelles depuis un même compte, avec un tableau de bord distinct pour chacune.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span class="faq-q">Proposez-vous une assistance en français ?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Bien sûr. Notre équipe vous accompagne en français, par message ou par téléphone, de la prise en main jusqu'à l'usage quotidien.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CTA FINAL ════════════════════════════════ -->
+<div class="container">
+  <div class="cta-final" data-reveal>
+    <div class="cta-final-bg" aria-hidden="true"></div>
+    <div class="cta-final-inner">
+      <h2>Prêt à reprendre le contrôle de votre exploitation ?</h2>
+      <p>Créez votre compte gratuitement en quelques minutes. Aucune carte bancaire requise.</p>
+      <div class="cta-final-row">
+        <a href="#" class="btn-cta-final" data-app-url>Accéder à l'application →</a>
+        <button class="btn-ghost-dark" data-open-demo>▷&nbsp; Voir une démo</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+<footer id="contact" class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="logo-icon" style="width:32px;height:32px;">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none">
+              <line x1="12" y1="21" x2="12" y2="11" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="7.4" cy="9.4" r="3.3" fill="#bfe3cb"/>
+              <circle cx="16"  cy="6.6" r="3.3" fill="#fff"/>
+            </svg>
+          </span>
+          <span style="font-family:var(--font-serif);font-weight:700;font-size:20px;color:#fff;" data-brand>Terralia</span>
+        </div>
+        <p>La gestion complète de votre ferme — cultures, élevage, stocks et ventes — dans une seule application.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X" style="font-size:14px;">X</a>
+          <a href="#" aria-label="LinkedIn" style="font-size:13px;">in</a>
+          <a href="#" aria-label="WhatsApp">✆</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Produit</h4>
+        <ul>
+          <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#apercu">Aperçu produit</a></li>
+          <li><a href="#" data-app-url>Accéder à l'app</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ressources</h4>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#">Guide de démarrage</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@terralia.com">contact@terralia.com</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Demander une démo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"></div>
+    <div class="footer-copy">
+      <span>© <span data-year></span> <span data-brand>Terralia</span>. Tous droits réservés.</span>
+      <div class="footer-copy-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">CGU</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════ DEMO MODAL ════════════════════════════════ -->
+<div class="modal-overlay" role="dialog" aria-modal="true" aria-label="Aperçu Terralia">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title">Aperçu de <span data-brand>Terralia</span></div>
+        <div class="modal-sub">Le tableau de bord, tel que vos équipes le voient au quotidien.</div>
+      </div>
+      <button class="modal-close" aria-label="Fermer">×</button>
+    </div>
+    <!-- App Mockup dans la modale -->
+    <div class="mockup-wrap">
+      <div class="mockup-frame">
+        <div class="mockup-bar">
+          <span class="mock-dot mock-dot--red"></span>
+          <span class="mock-dot mock-dot--yellow"></span>
+          <span class="mock-dot mock-dot--green"></span>
+          <div class="mockup-url-bar"><div class="mockup-url">app.terralia.com/tableau-de-bord</div></div>
+        </div>
+        <div class="mockup-body">
+          <div class="mockup-sidebar">
+            <div class="sidebar-logo">
+              <span class="sidebar-logo-icon"><span style="width:8px;height:8px;border-radius:2px;background:#bfe3cb;display:inline-block;"></span></span>
+              <span class="sidebar-logo-name">Terralia</span>
+            </div>
+            <div class="sidebar-item sidebar-item--active"><span class="sidebar-bullet sidebar-bullet--active"></span>Tableau de bord</div>
+            <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Cultures</div>
+            <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Bétail</div>
+            <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Stocks</div>
+            <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Ventes</div>
+            <div class="sidebar-item sidebar-item--idle"><span class="sidebar-bullet sidebar-bullet--idle"></span>Rapports</div>
+          </div>
+          <div class="mockup-content">
+            <div class="mockup-greeting">Bonjour, Awa</div>
+            <div class="mockup-date">Voici votre exploitation aujourd'hui · 14 juin</div>
+            <div class="mockup-stats">
+              <div class="mockup-stat"><div class="mockup-stat-label">Parcelles</div><div class="mockup-stat-val">12</div><div class="mockup-stat-sub mockup-stat-sub--green">+2 ce mois</div></div>
+              <div class="mockup-stat"><div class="mockup-stat-label">Bétail</div><div class="mockup-stat-val">86</div><div class="mockup-stat-sub mockup-stat-sub--gray">têtes suivies</div></div>
+              <div class="mockup-stat"><div class="mockup-stat-label">Revenus</div><div class="mockup-stat-val">412 K&nbsp;F</div><div class="mockup-stat-sub mockup-stat-sub--green">+18%</div></div>
+            </div>
+            <div class="mockup-chart">
+              <div class="mockup-chart-header">
+                <span class="mockup-chart-title">Rendement par parcelle</span>
+                <span class="mockup-chart-badge">+18% vs. mois dernier</span>
+              </div>
+              <div class="chart-bars">
+                <div class="chart-bar" style="height:44%;background:#cfe5d6;"></div>
+                <div class="chart-bar" style="height:60%;background:#a9d3b9;"></div>
+                <div class="chart-bar" style="height:52%;background:#cfe5d6;"></div>
+                <div class="chart-bar" style="height:74%;background:#69a982;"></div>
+                <div class="chart-bar" style="height:66%;background:#a9d3b9;"></div>
+                <div class="chart-bar" style="height:92%;background:#2e7d4f;"></div>
+                <div class="chart-bar" style="height:78%;background:#c1654a;"></div>
+              </div>
+              <div class="chart-labels">
+                <span class="chart-label">P1</span><span class="chart-label">P2</span>
+                <span class="chart-label">P3</span><span class="chart-label">P4</span>
+                <span class="chart-label">P5</span><span class="chart-label">P6</span>
+                <span class="chart-label">P7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn-modal-cta" data-app-url>Essayer maintenant →</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
