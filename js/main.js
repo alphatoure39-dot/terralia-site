@@ -1,7 +1,7 @@
 /* ─── CONFIG ──────────────────────────────────────────────────────────────── */
 const CONFIG = {
   brandName: 'Terralia',
-  appUrl:    'https://app.terralia.com',
+  appUrl:    'https://terralia-app.vercel.app',
   heroTitle: 'Gérez toute votre ferme depuis un seul endroit',
 };
 
